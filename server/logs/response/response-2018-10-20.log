@@ -1,0 +1,59 @@
+[2018-10-20T22:54:02.155] [INFO] response 
+{ clientIp: '::1',
+  method: 'GET',
+  url: '/api/v1/customManager/customs',
+  body: {},
+  response: { status: 500,
+     message: 'Internal Server Error',
+     header: 
+      { 'access-control-allow-origin': '*',
+        'access-control-allow-credentials': 'true',
+        'access-control-allow-methods': 'GET,HEAD,PUT,POST,DELETE',
+        'content-type': 'application/json; charset=utf-8' },
+     body: { meta: [Object] } },
+  ms: 4 }
+
+[2018-10-20T22:54:02.442] [INFO] response 
+{ clientIp: '::1',
+  method: 'GET',
+  url: '/favicon.ico',
+  body: {},
+  response: { status: 404,
+     message: 'Not Found',
+     header: 
+      { 'access-control-allow-origin': '*',
+        'access-control-allow-credentials': 'true',
+        'access-control-allow-methods': 'GET,HEAD,PUT,POST,DELETE' },
+     body: undefined },
+  ms: 1 }
+
+[2018-10-20T22:56:23.959] [INFO] response 
+{ clientIp: '::1',
+  method: 'GET',
+  url: '/api/v1/customManager/customs',
+  body: {},
+  response: { status: 500,
+     message: 'Internal Server Error',
+     header: 
+      { 'access-control-allow-origin': '*',
+        'access-control-allow-credentials': 'true',
+        'access-control-allow-methods': 'GET,HEAD,PUT,POST,DELETE',
+        'content-type': 'application/json; charset=utf-8' },
+     body: { meta: [Object] } },
+  ms: 5 }
+
+[2018-10-20T23:05:21.859] [INFO] response 
+{ clientIp: '::1',
+  method: 'GET',
+  url: '/api/v1/customManager/customs',
+  body: {},
+  response: { status: 200,
+     message: 'OK',
+     header: 
+      { 'access-control-allow-origin': '*',
+        'access-control-allow-credentials': 'true',
+        'access-control-allow-methods': 'GET,HEAD,PUT,POST,DELETE',
+        'content-type': 'application/json; charset=utf-8' },
+     body: { meta: [Object], data: [] } },
+  ms: 21120 }
+

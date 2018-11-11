@@ -1,0 +1,5 @@
+.person-file-list { position: relative; }
+
+.person-file-list .basic-info { position: relative; padding: 0 10px 0 45px !important; }
+
+.person-file-list .basic-info .checkbox-beauty { position: absolute; left: 20px; top: 6px; }
